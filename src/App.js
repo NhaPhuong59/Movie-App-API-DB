@@ -1,19 +1,19 @@
-import React from 'react'
-import PageHeader from './components/Page-Header';
-// import Avatar from "./Avatar.js"
-import './styles/global.scss';
-
+import React from "react";
+import Router from "./routes";
+import { BrowserRouter } from "react-router-dom";
+// import { AuthProvider } from "./contexts/AuthContext";
+// import CartContextProvider from "./contexts/CartContext";
 
 function App() {
   return (
-    <div>
-        <div className='App'>
-        <PageHeader/>
-        </div>
-        
-        
-    </div>
-  )
+    // <AuthProvider>
+      // <CartContextProvider>
+        <BrowserRouter>
+          <Router />
+        </BrowserRouter>
+      // </CartContextProvider>
+    // </AuthProvider>
+  );
 }
 
-export default App
+export default App;

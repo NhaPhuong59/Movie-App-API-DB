@@ -1,0 +1,17 @@
+.link,
+.link:hover,
+.link:visited,
+.link:active {
+    text-decoration: none;
+}
+
+.button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 4px 4px 2px;
+}
+
+.button:hover {
+    background-color: #ced6e0;
+}
